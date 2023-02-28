@@ -1,0 +1,23 @@
+#home {
+  pointer-events: none;
+  padding-top: 6%;
+
+  > div {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin: 30px;
+    gap: 1.5rem;
+    padding-inline: 15%;
+    margin-bottom: 0;
+    row-gap: 3%;
+  }
+
+  i,
+  button {
+    pointer-events: visible;
+  }
+}
+
+main > div:last-child {
+  margin-bottom: 7%;
+}

@@ -1,0 +1,22 @@
+.scrollicon {
+    position: fixed;
+    bottom: 0;
+    margin: 33px;
+    right: 0;
+}
+
+.scrollbtn {
+    display: none;
+    width: 6%;
+    padding: 1%;
+    border: 0;
+    background-color: transparent;
+    font-size: 1.5vw;
+    color: $color;
+    transition: display 6s ease-in-out;
+
+    i {
+        font-size: 4vw;
+    }
+  }
+
